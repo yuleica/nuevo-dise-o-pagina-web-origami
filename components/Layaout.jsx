@@ -17,10 +17,10 @@ export default function Layaout({children, title, description, home}) {
         <Navbar />       
         <main>{children}</main>
         {!home && (
-            <div>
+            <div className={stylesh.margen_contenido}>
      
               <Link 
-                className={stylesh.description} 
+                className={stylesh.boton_pie_pagina} 
                 href="/" 
               >
                   ...Ir al Inicio

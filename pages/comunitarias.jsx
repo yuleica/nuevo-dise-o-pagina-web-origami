@@ -13,38 +13,40 @@ export default function comunitarias() {
       title="Soluciones Comunitarias"
       description="Soluciones Comunitarias"
     >
+
+    
     <div className={stylesh.main}>
-    <h1>Soluciones Comunitarias</h1>
-        <div className={stylesh.thirteen}>
+        <div className={stylesh.contenedor_imagen_cover}>
             <Image 
                 priority
-                src={"/img/2da_galeria_570x640.jpg"}
-                height={450}
-                width={550}
+                src={"/img/laguna_comunitaria.jpg"}
+                height={300}
+                width={2500}
                 alt="comunitaria"
-                className={styles.logo} 
+                className={stylesh.imagen_cover} 
             
             />
         </div>
-        <div className={styles.gridContainer}>
-            <div className={stylesh.item1}>
+        <div className={stylesh.titulo}><h1>Soluciones Comunitarias</h1></div>
+        <div className={styles.gridContainer_Comunitario}>
+            <div className={styles.item1}>
                 <Link href="/energia">
                     <Image
-                        src={"/img/energias_renovables.png"}
-                        height={200}
-                        width={200}
+                        src={"/img/bombillo.jpg"}
+                        height={150}
+                        width={150}
                         alt="energia"
                         className={styles.logoItem} 
                     />
                 </Link>
-                <p className={styles.descriptionItemC}>Sistemas Autónomos de Energía Limpia </p>
+                <p className={styles.descriptionItemC}>Sistemas de Energía Limpia</p>
             </div>
             <div className={styles.item1}>
                 <Link href="/agua">
                     <Image
-                        src={"/img/ICONO-GESTION-AGUA.png"}
-                        height={200}
-                        width={200}
+                        src={"/img/chorro_agua.jpg"}
+                        height={150}
+                        width={150}
                         alt="agua"
                         className={styles.logoItem} 
                     />
@@ -54,9 +56,9 @@ export default function comunitarias() {
             <div className={styles.item1}>
                 <Link href="/tecno">
                     <Image
-                        src={"/img/innovacion_tecnologica.png"}
-                        height={200}
-                        width={200}
+                        src={"/img/reloj.jpg"}
+                        height={150}
+                        width={150}
                         alt=" innovación tecnológica"
                         className={styles.logoItem} 
                     />
@@ -66,9 +68,9 @@ export default function comunitarias() {
             <div className={styles.item1}>
                 <Link href="/house">
                     <Image
-                        src={"/img/edificacion_hab_sostenible.png"}
-                        height={200}
-                        width={200}
+                        src={"/img/casa_sostenible.jpg"}
+                        height={150}
+                        width={150}
                         alt="casa sostenible"
                         className={styles.logoItem} 
                     />
@@ -78,9 +80,9 @@ export default function comunitarias() {
             <div className={styles.item1}>
                 <Link href="/muebles">
                     <Image
-                        src={"/img/activos_energeticos.png"}
-                        height={200}
-                        width={200}
+                        src={"/img/mobiliario_sostenible.jpg"}
+                        height={150}
+                        width={150}
                         alt="mobiliario sostenible"
                         className={styles.logoItem} 
                     />

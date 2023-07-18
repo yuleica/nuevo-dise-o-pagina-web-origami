@@ -13,26 +13,25 @@ export default function industriales() {
     description="Servicios Industriales"
     >
     <div className={stylesh.main}>
-        <h1>Soluciones Industriales</h1>
-        <div className={stylesh.thirteen}>
+        <div className={stylesh.contenedor_imagen_cover}>
             <Image 
                 priority
-                src={"/img/sistemas_autoaticos.jpg"}
-                height={350}
-                width={750}
+                src={"/img/portada_soluciones_industriales-transformed.jpeg"}
+                height={300}
+                width={2500}
                 alt="industria"
-                className={stylesh.logo} 
-            
+                className={stylesh.imagen_cover} 
             />
         </div>
+        <div className={stylesh.titulo}><h1>Soluciones Industriales</h1></div>
         <div className={styles.gridContainer}>
             <div className={styles.item1}>
                 <Link href="/ernc">
                     <Image
                         priority
-                        src={"/img/energias_renovables.png"}
-                        height={200}
-                        width={200}
+                        src={"/img/technology.png"}
+                        height={150}
+                        width={150}
                         alt="ernc"
                         className={styles.logoItem} 
                     />
@@ -42,9 +41,9 @@ export default function industriales() {
             <div className={styles.item1}>
                 <Link href="/innovacion">
                     <Image
-                        src={"/img/innovacion_tecnologica.png"}
-                        height={200}
-                        width={200}
+                        src={"/img/innovation.png"}
+                        height={150}
+                        width={150}
                         alt="innovación tecnológica"
                         className={styles.logoItem} 
                     />
@@ -54,9 +53,9 @@ export default function industriales() {
             <div className={styles.item1}>
                 <Link href="/construccion">
                     <Image
-                        src={"/img/edificacion_hab_sostenible.png"}
-                        height={200}
-                        width={200}
+                        src={"/img/sustainable.png"}
+                        height={150}
+                        width={150}
                         alt="construcción sostenible"
                         className={styles.logoItem} 
                     />
@@ -66,9 +65,9 @@ export default function industriales() {
             <div className={styles.item1}>
                 <Link href="/control">
                     <Image
-                        src={"/img/sistemas_automaticos.png"}
-                        height={200}
-                        width={200}
+                        src={"/img/control.png"}
+                        height={150}
+                        width={150}
                         alt="sistemas de control y gestión"
                         className={styles.logoItem} 
                     />

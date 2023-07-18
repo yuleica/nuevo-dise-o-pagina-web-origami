@@ -3,19 +3,48 @@
   -webkit-display: -ms-grid;
   -webkit-display: -moz-grid;
   row-gap: 50px 100px;
-
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   padding: 10px;
+}
+
+
+.gridContainer_Comunitario {
+  display:  grid;
+  -webkit-display: -ms-grid;
+  -webkit-display: -moz-grid;
+  row-gap: 50px 100px;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 10px;
+}
+
+.gridContainer_Nosotros {
+  display:  grid;
+  -webkit-display: -ms-grid;
+  -webkit-display: -moz-grid;
+  row-gap: 50px 100px;
+  grid-template-columns: auto auto;
+}
+
+.columna_item_nosotros{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.icono{
+  padding-right: 5px;
 }
 
 .item1 {
   padding: 20px;
   text-align: center;
+  background-color: #706f6f;
+  margin: 5px;
 }
 
 .descriptionItemC{
   text-align: center;
   padding: 5px;
+  color:beige;
 }
 
 .logoItem {
@@ -39,7 +68,8 @@
     align-items: center;
   }
 
-   .gridContainer{
+   .gridContainer, .gridContainer_Nosotros, 
+   .gridContainer_Comunitario{
 
     margin: 0px;
     width: 1000px;
@@ -52,10 +82,7 @@
   
   }
 
-  .imagenAgua{
-    width: 100%;
-    padding: auto;
-  }
+
 
 }
 

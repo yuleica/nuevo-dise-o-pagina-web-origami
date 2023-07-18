@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/industriales": "pages/industriales.js",
-  "/comunitarias": "pages/comunitarias.js"
+  "/comunitarias": "pages/comunitarias.js",
+  "/house": "pages/house.js",
+  "/": "pages/index.js"
 }

@@ -35,10 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/comunitarias.js"
     ],
-    "/industriales": [
+    "/house": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/industriales.js"
+      "static/chunks/pages/house.js"
     ]
   },
   "ampFirstPages": []

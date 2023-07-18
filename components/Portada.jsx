@@ -17,41 +17,61 @@ export const Portada = () => {
         <div>
             <Image
                 priority
-                src={"/img/paneles_solares.jpg"}
-                height={1200}
-                width={1200}
+                src={"/img/paneles_solares-transformed.jpeg"}
+                height={1000}
+                width={2000}
                 alt="panel solar"
-                className={stylesh.thirteen} 
+                className={stylesh.imagen_cover} 
             />
         </div>
         <div className={styles.gridContainer}>
             <div className={styles.item1}>
                 <Link href="/industriales">
-                <Image
-                    priority
-                    src={"/img/3660504.png"}
-                    height={300}
-                    width={300}
-                    alt="industria"
-                    className={styles.logoItem} 
-                />
+                    <Image
+                        src={"/img/automatizacion.png"}
+                        height={200}
+                        width={200}
+                        alt="soluciones industriales"
+                        className={styles.logoItem} 
+                    />
                 </Link>
-                <p className={styles.descriptionItemC}>Industria, Minería y Energía</p>
+                <p className={styles.descriptionItemC}>Soluciones Industriales</p>
             </div>
             <div className={styles.item1}>
                 <Link href="/comunitarias">
                     <Image
-                        src={"/img/4127293.png"}
-                        height={300}
-                        width={300}
-                        alt="comunidades"
+                        src={"/img/communidad_portada2.png"}
+                        height={200}
+                        width={200}
+                        alt="soluciones industriales"
                         className={styles.logoItem} 
                     />
                 </Link>
-                <p className={styles.descriptionItemC}>Comunidades Locales</p>
+                <p className={styles.descriptionItemC}>Soluciones Comunitarias</p>
             </div>
         </div>
+
     </div>
     </Layaout>
   )
 }
+
+
+
+
+
+
+<div className={styles.gridContainer}>
+<div className={styles.item1}>
+    <Link href="/industriales"
+          className={stylesh.boton}  >
+       Soluciones Industriales 
+    </Link>
+</div>
+<div className={styles.item1}>
+    <Link href="/comunitarias"
+          className={stylesh.boton}  >
+       Soluciones Comunitarias 
+    </Link>
+</div>
+</div>

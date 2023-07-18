@@ -3,7 +3,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import stylesh from '../styles/Home.module.css';
-import styles from '../styles/Otro.module.css';
 import Layaout from '../components/Layaout';
 
 export default function house() {
@@ -13,26 +12,38 @@ export default function house() {
     description="Mobiliario Sostenible"
     >
     <div className={stylesh.main}>
-        <div className={stylesh.thirteen}>
+        <div className={stylesh.contenedor_imagen_cover}>
             <Image 
                 priority
-                src={"/img/Mobiliario-sostenible.jpg"}
+                src={"/img/mueble-transformed.jpeg"}
                 height={400}
                 width={600}
                 alt="Mobiliario Sostenible"
-                className={styles.logoItem} 
+                className={stylesh.imagen_cover}  
             
             />
         </div>
-        <h1>UNE - MOBILIARIO SOSTENIBLE </h1>
-        <p className={stylesh.card}>
-            Los muebles sustentables ayudan a tener un hogar más amigable con el medioambiente .Su diseño contempla materiales naturales y reciclados, contribuyendo al desarrollo de una economía circular.
-        </p>   
-        
+        <div className={stylesh.margen_contenido}>
+            <h1>Mobiliario Sostenible </h1>
+            <p className={stylesh.card}>
+                En <b>ORIGAMI</b> desarrollamos soluciones constructivas sostenibles para clientes finales, empresas, 
+                e interesados en la construcción responsable.
+            </p>   
+            <p className={stylesh.card}>
+               Creamos productos innovadores y amigables con el medio ambiente, desde opciones de embalaje ecológico
+               hasta soluciones en energías renovables. 
+            </p>  
+            <p className={stylesh.card}>
+               Únete a nosotros en el camino hacia un futuro más verde y responsable. 
+            </p>  
+            <p className={stylesh.card}>
+               Junto a <b>ORIGAMI</b> construye de manera sustentable.
+            </p>  
+        </div>
     </div>
-    <div>
+    <div className={stylesh.margen_contenido}>
         <Link 
-            className={stylesh.description} 
+            className={stylesh.boton_pie_pagina} 
             href="/comunitarias" 
             >
             ...Volver

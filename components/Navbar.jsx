@@ -13,11 +13,11 @@ export const Navbar = () => {
                 <li className={styles.li}>
                   <Links className={styles.a} href="/">
                     <Image
-                      src={"/img/origami.jpg"}
-                      height={100}
-                      width={300}
+                      src={"/img/logo_origami.png"}
+                      height={50}
+                      width={100}
                       alt="ORIGAMI"
-                      className={styles.logo} 
+                      className={styles.logoItem} 
                     />
                   </Links>
                 </li>

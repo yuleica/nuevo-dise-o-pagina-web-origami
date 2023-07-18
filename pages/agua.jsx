@@ -13,38 +13,40 @@ export default function energia() {
     description="Sistemas de Gestión de Aguas"
     >
     <div className={stylesh.main}>
-        <div className={stylesh.thirteen}>
+        <div className={stylesh.contenedor_imagen_cover}>
             <Image 
                 priority
-                src={"/img/economia_colaborativa_750x450.jpg"}
-                height={450}
-                width={750}
+                src={"/img/agua-transformed.jpeg"}
+                height={400}
+                width={600}
                 alt="control"
-                className={styles.logoItem} 
-            
+                className={stylesh.imagen_cover}
             />
         </div>
-        <h1>UNE - SISTEMAS DE GESITÓN DE AGUAS </h1>
-        <p className={stylesh.card}>
-        Generación de proyectos que permitan gestionar el recurso agua, a través de soluciones de ingeniería y diseño que mitigan la escasez, aumentan la disponibilidad y el uso del agua de forma más sostenible y ecológica.
-        </p>   
-        <p className={stylesh.card}>
-            1.- Sistemas de Cosecha de Aguas Lluvias 
-        </p> 
-        <p className={stylesh.card}>
-            2.- Recuperación y reutilización de Aguas Grises y Negras
-        </p>
-        <p className={stylesh.card}>
-            3.- Almacenamiento y Gestión de Aguas
-        </p>
-        <p className={stylesh.card}>
-            4.- Sistemas de Riego
-        </p>
+        <div className={stylesh.margen_contenido}>
+            <h1>Sistemas de Gestión de Aguas </h1>
+            <p className={stylesh.card}>
+                Generación de proyectos que permitan gestionar el recurso agua, a través de soluciones de ingeniería y diseño que mitigan la escasez, aumentan la disponibilidad y el uso del agua de forma más sostenible y ecológica.
+            </p>
+            <p className={stylesh.card}>
+                1.- Sistemas de Cosecha de Aguas Lluvias 
+            </p>  
+            <p className={stylesh.card}>
+                2.- Recuperación y reutilización de Aguas Grises y Negras
+            </p> 
+            <p className={stylesh.card}>
+                3.- Almacenamiento y Gestión de Aguas
+            </p>
+            <p className={stylesh.card}>
+                4.- Sistemas de Riego
+            </p>
 
+
+        </div>
     </div>
-    <div>
+    <div className={stylesh.margen_contenido}>
         <Link 
-            className={stylesh.description} 
+            className={stylesh.boton_pie_pagina}
             href="/comunitarias" 
             >
             ...Volver
