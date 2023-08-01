@@ -26,6 +26,13 @@
   padding: 6rem;
 }
 
+.margen_video{
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
 .boton {
   border: 1px solid #2e518b; 
   padding: 10px; 
@@ -64,6 +71,7 @@
   border: 1px solid rgba(var(--card-border-rgb), 0);
   transition: background 200ms, border 200ms;
   text-align: justify;
+  font-size: large;
 }
 
 .card span {
@@ -190,6 +198,7 @@
   padding-top: 100px;
   text-align: justify;
   width: 400px;
+  font-size: large;
 }
 
 /* Enable hover only on non-touch devices */

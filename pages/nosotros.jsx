@@ -16,6 +16,13 @@ export default function Nosotros() {
         <div className={stylesh.margen_contenido}>
           <h1>Nosotros</h1>
         </div>
+        <div className={stylesh.margen_video}>
+          <video 
+            src="/img/ejemplo.mp4" controls
+            height={640}
+            width={920}
+          />
+        </div>       
         <div className={stylesh.margen_contenido}>
           <div className={styles.gridContainer_Nosotros}>
               <Image 
