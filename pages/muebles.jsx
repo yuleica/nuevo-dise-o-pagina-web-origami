@@ -25,6 +25,8 @@ export default function house() {
         </div>
         <div className={stylesh.margen_contenido}>
             <h1>Mobiliario Sostenible </h1>
+            <p>Proporcionamos soluciones en mobiliario sostenible para comunidades residenciales y empresariales. Nuestra oferta incluye productos ecológicos y de calidad, diseñados para mejorar la vida diaria y reducir el impacto ambiental. Construyamos juntos un entorno más
+verde y responsable.</p>
 
         </div>
     </div>
